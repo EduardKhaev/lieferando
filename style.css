@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.navBar {
+  width: 100%;
+  height: 52px;
+  background-color: #2b2a28;
+
+  color: white;
+  font-family: JETSansDigital,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 8px;
+  box-shadow: 0px 20px 50px 0px #000000;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #ff8000;
+  font-family: sans-serif;
+}
+.navLogoLeft{
+    height: 45px;
+    width: 152px;
+}
